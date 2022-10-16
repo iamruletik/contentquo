@@ -1,7 +1,18 @@
+import preprocess from "svelte-preprocess";
 import adapter from '@sveltejs/adapter-netlify';
 
-export default {
-  kit: {
-    adapter: adapter()
+
+const config = {
+	preprocess: [
+	  preprocess({
+		postcss: true,
+	  }),
+	],
   }
+
+export default {
+	config,
+	kit: {
+		adapter: adapter()
+	}
 };
