@@ -7,6 +7,6 @@
             </svg>                
         </button>
     </span>
-    <input type="text" name="search" placeholder="Search ContentQuo" class=" transition hover:bg-slate-200 w-full h-8 text-sm text-slate-600 bg-slate-100 rounded-md pl-7 focus:outline-none focus:bg-white focus:text-slate-900 appearance-none shadow-sm border border-slate-300 leading-8" autocomplete="off" >
+    <input type="text" name="search" placeholder="Search Me" class=" transition hover:bg-slate-200 w-full h-8 text-sm text-slate-600 bg-slate-100 rounded-md pl-7 focus:outline-none focus:bg-white focus:text-slate-900 appearance-none shadow-sm border border-slate-300 leading-8" autocomplete="off" >
     </div>
 </form>
