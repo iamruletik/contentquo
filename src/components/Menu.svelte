@@ -5,7 +5,7 @@
 	import SearchInput from '../components/SearchInput.svelte';
 </script>
 
-<section class="bg-slate-100 h-screen w-56 border-slate-200 border-r-2 box-border static">
+<section class=" bg-slate-100 h-screen w-56 static border-slate-200 border-r-2 box-border ">
 	<div
 		id="companyId"
 		class="w-full h-auto py-3 px-4 flex items-center hover:bg-slate-200 active:bg-slate-300 transition cursor-pointer group"
@@ -23,4 +23,30 @@
 	<div id="searchInput" class="w-full px-4 pt-1 pb-4">
 		<SearchInput />
 	</div>
+	<scrollable-area-in-menu class="overflow-scroll">
+		<div>menuitem 1</div>
+		<div>menuitem 2</div>
+		<div>menuitem 3</div>
+		<div>menuitem 1</div>
+		<div>menuitem 2</div>
+		<div>menuitem 3</div>
+		<div>menuitem 1</div>
+		<div>menuitem 2</div>
+		<div>menuitem 3</div>
+		<div>menuitem 1</div>
+		<div>menuitem 2</div>
+		<div>menuitem 3</div>
+		<div>menuitem 1</div>
+		<div>menuitem 2</div>
+		<div>menuitem 3</div>
+		<div>menuitem 1</div>
+		<div>menuitem 2</div>
+		<div>menuitem 3</div>
+		<div>menuitem 1</div>
+		<div>menuitem 2</div>
+		<div>menuitem 3</div>
+		<div>menuitem 1</div>
+		<div>menuitem 2</div>
+		<div>menuitem 3</div>
+	</scrollable-area-in-menu>
 </section>

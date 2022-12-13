@@ -1,4 +1,4 @@
-<div>
+<div class="mx-12">
 	<span class="bg-violet-400 p-0 rounded-sm">en-US</span> <span>English</span>
 	<span class="">US</span>
 	<i class="fa fa-arrow-right" />

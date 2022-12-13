@@ -11,10 +11,10 @@
 	];
 </script>
 
-<header>
+<header class="my-8 mx-12">
 	<span>
 		{#each urls as url, idx}
-			<span key={idx} class="sub-items">
+			<span key={idx} class="sub-items text-xl">
 				<span
 					class={idx === 1
 						? 'item p-1 rounded-sm cursor-pointer whitespace-nowrap bg-amber-400'
